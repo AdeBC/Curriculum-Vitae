@@ -1,0 +1,388 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,roman]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+\usepackage{standalone}
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.85]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%\usepackage[utf8]{inputenc}
+
+%\usepackage{booktabs}
+\usepackage{fontawesome}
+\usepackage{marvosym} % For cool symbols.
+%\usepackage{hyperref}
+
+
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{HUI} % Your first name
+\familyname{CHONG} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae\\ \Large Last updated: \today}
+\address{Institute of Science and Technology for Brain-inspired Intelligence}{Fudan University}
+\mobile{(+86) 186 0939 7774}
+
+
+%\fax{(000) 111 1113}
+
+\email{huichong.me@gmail.com} 
+
+\homepage{huichong.me}{huichong.me}
+
+% social link \faGithub, \faSkype, \faLinkedin,\faStackExchange, and \faStackOverflow
+\extrainfo{\faGithub \href{https://github.com/AdeBC}{  https://github.com/AdeBC} \quad
+    %\faLinkedin\href{https://www.linkedin.com/abc/}{ Linkedin} \quad
+    %\faSkype\href{https://skype.com/abc}{Skype}
+    }
+
+
+
+%\social[linkedin][www.linkedin.com]{name}
+% The first argument is %the url for the clickable link, the second argument is the url displayed in the %template - this allows special characters to be displayed such as the tilde in this %example
+
+%\photo[70pt][0.3pt]{picture} % The first bracket is the picture height, the second is %the thickness of the frame around the picture (0pt for no frame)
+%\quote{Not Attention, Patience is all we need.}
+
+%----------------------------------------------------------------------------------------
+
+\newcommand{\cvdoublecolumn}[2]{%
+  \cvitem[.75em]{}{%
+    \begin{minipage}[t]{\listdoubleitemcolumnwidth}#1\end{minipage}%
+    \hfill%
+    \begin{minipage}[t]{\listdoubleitemcolumnwidth}#2\end{minipage}%
+    }%
+}
+
+
+
+\usepackage{multibbl}
+\newcommand\Colorhref[3][orange]{\href{#2}{\small\color{#1}#3}}
+
+
+% \newcommand{\cvreference}[7]{%
+%     \textbf{#1}\newline% Name
+%     \ifthenelse{\equal{#2}{}}{}{\addresssymbol~#2\newline}%
+%     \ifthenelse{\equal{#3}{}}{}{#3\newline}%
+%     \ifthenelse{\equal{#4}{}}{}{#4\newline}%
+%     \ifthenelse{\equal{#5}{}}{}{#5\newline}%
+%     \ifthenelse{\equal{#6}{}}{}{\emailsymbol~\texttt{#6}\newline}%
+%     \ifthenelse{\equal{#7}{}}{}{\phonesymbol~#7}}
+
+\begin{document}
+\makecvtitle % Print the CV title
+
+\large 
+\normalsize
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+%\cventry{2016--present}{PhD, Computer Science \& Engineering}{Indian Institute of Technology}{Patna}{}
+%{Protein-protein interactions, Protein structure, Genomic sequence, Multi-objective Optimization, Clustering, Machine Learning and Deep Learning}  % Arguments not required can be left empty
+
+%\cventry{2013--2015 :}{Master of Engineering, Information Technology}{Indian Institute of Engineering Science \& Technology}{Shibpur(\textit{Formerly} Bengal Engineering and Science University, Shibpur)}{}{}
+%{Advanced exposure to various areas of computer science along with a one and half year research project on Reversible Logic Synthesis.}
+%\cvitem{CGPA :}{7.96/10}
+\cventry{2017--2021}{Bachelor of Engineering, Bioinformatics \& Systems biology}{School of Life Science \& Technology, Huazhong University of Science \& Technology}{Wuhan}{}{\normalsize 
+\begin{itemize}
+    \item Comprehensive exposure to the core areas of Bioinformatics;
+    \item Two years project on microbiome (especially the human gut microbiome)
+\end{itemize}}
+\hfill
+
+\cventry{2018--2020}{Bioinformatics and Deep learning}{Coursera}{Online}{}{\normalsize Completed courses: 
+\begin{itemize}
+    \item \textit{Finding Hidden Messages in DNA} by \textbf{Pavel A. Pevzner} and \textbf{Phillip Compeau};
+    \item \textit{Bioinformatics: Introduction and Methods} by \textbf{Ge Gao and Liping Wei}; 
+    \item \textit{Deep Learning Specialization I, II, and III} by \textbf{Andrew Ng.}
+\end{itemize}}
+%\cvitem{CGPA :}{7.36/10}
+% \cventry{2008 :}{Higher Secondary Examination}{Belmuri Union Institution}{Belmuri}{}{ Mathematics, Physics, Chemistry, Biology, English, Bengali}
+% {}
+% \cvitem{Percentage :}{81.2 \%}
+% \cventry{2006 :}{Secondary Examination}{Belmuri Union Institution}{Belmuri}{}{ Mathematics, Physical Science, Life Science, Geography, History, English, Bengali}
+% {}
+% \cvitem{Percentage :}{90.8 \%}
+
+
+
+% \section{Research interests}
+% \cventry{}{Human gut microbiome}{}{}{}
+% {
+%     \begin{itemize}
+%         \item The acquisition of human gut microbiota during early life stage. \\ See \Colorhref{https://doi.org/10.1016/j.chom.2015.04.004}{related paper 1} and \Colorhref{https://www.sciencedirect.com/science/article/pii/S1931312821001001}{related paper 2}.
+%         \item Capturing the acquisition process by microbial source tracking.
+%         \item Shared and disease-specific patterns of human gut microbiome. \\
+%         See \Colorhref{https://www.nature.com/articles/s41467-017-01973-8}{related paper}.
+%         \item Generalization of the human gut microbiota-based diagnostic model to overcome the regional variation discovered in Guangdong Gut Microbiome Project (GGMP). \\
+%         See \Colorhref{https://www.nature.com/articles/s41591-018-0219-z}{related paper}.
+%     \end{itemize}
+% }
+% \cventry{}{Global microbiome}{}{}{}
+% {
+%     \begin{itemize}
+%         \item Novel methodology and application of microbial source tracking.
+%     \end{itemize}
+% }
+
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATION SECTION
+%----------------------------------------------------------------------------------------
+
+
+\section{Publications}
+% \subsection{Journal Article(Accepted)}
+% \cventry{2019}{\textbf{Pratik Dutta}, Sriparna Saha, Sanket Pai and Aviral Kumar}{}{Protein-protein Interaction based Generative Model for Improving Gene Clustering}{In \textit{\textbf{Scientific Reports-Nature}} (\textbf{Impact Factor: 4.12)}}{}
+
+
+\subsection{Articles}
+\newbibliography{journal}
+\bibliographystyle{journal}{plainyrrev}
+\nocite{journal}{*}
+\bibliography{journal}{journal}
+{\large \textsc{Refereed Journal Articles}}
+% \subsection{Communicated Journal Article}
+% \cventry{2020}{Pratik Dutta, Aditya Prakash Patra, and Sriparna Saha}{}{DeePROG: An Attention based Deep Multi-modal Architecture for Disease Gene Prognosis}{In \textit{IEEE Transactions on Biomedical Engineering}}{}
+
+
+% \subsection{In Conference Proceedings}
+% \newbibliography{conference}
+% \nocite{conference}{*}
+% \bibliographystyle{conference}{plainyrrev}
+% \bibliography{conference}{conference}
+% {\large \textsc{Refereed Conference Publications}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Research Experience}
+\subsection{Fudan University, Research Assistant}
+\cventry{Jul,2021 -- present}{\textit{Global microbial gene synteny survey}}{}{}{}
+{Generation of syntenic graphs based on the entire  \href{https://gmgc.embl.de/}{GMGC dataset}. Extraction and hypothesis testing of syntenic patterns. Implementation of the analysis pipeline.}
+\cvitem{Advisor:}{\small \textbf{Dr. Luis Pedro Coelho} ({\Colorhref{http://www.big-data-biology.org/} {\textit{Lab Web-page}}})}
+\hfill
+\cventry{Jul,2021 -- present}{\textit{Global antimicrobial peptides survey}}{}{}{}
+{Designed a website for global antimicrobial peptides. Constructed the website based on Python, FastAPI, Vue.js, Quasar, Plotly.js, and SQLite3.}
+\cvitem{Advisor:}{\small \textbf{Dr. Luis Pedro Coelho}}
+\hfill
+
+\subsection{Huazhong University of Science and Technology, Research Assistant (Undergraduate)}
+\cventry{Apr,2021 -- Jul,2021}{\textit{Cross-region generalization of disease model based on Transfer Learning and selected biomarkers}}{}{}{}
+{Project administration. Conceptualization of the idea and the approach. Study design. Project member training. Technical support on data processing, modeling, cross-validation, and visualization. Manuscript writing \& editing.}
+\cvitem{Advisor:}{\small \textbf{Prof. Kang Ning} ({\Colorhref{http://www.microbioinformatics.org/} {\textit{Lab Web-page}}}) and \small \textbf{Prof. Weihua Chen} ({\Colorhref{http://www.chenlab.medgenius.info/index.php} {\textit{Lab Web-page}}})}
+\hfill
+
+% \cventry{Mar,2021 -- present}{\textit{Developing an ARSENAL of fundamental microbial source tracking models}}{}{}{}
+% {Project administration. Conceptualization of the project. Project member training. Manuscript writing.}
+% \cvitem{Advisor:}{\small \textbf{Dr. Kang Ning}}
+% \hfill
+
+\cventry{Aug,2020 -- present}{\textit{Application of transfer learning approach for analyzing the spatial/temporal dynamics of human gut microbiome}}{}{}{}
+{Project administration. Conceptualization of the project.  Project member training.}
+\cvitem{Advisor:}{\small \textbf{Prof. Kang Ning}}
+\hfill
+
+\cventry{Aug,2020 -- present}{\textit{Developing a transfer learning approach for high-throughput microbial source tracking}}{}{}{}
+{Project administration. Conceptualization of the idea and the approach. Implementation of the approach using TensorFlow + sqlite + Pandas. Application of microbial source tracking in disease pattern analysis and temporal pattern analysis.
+Implementation of feature extractor module using TensorFlow. Python package distribution of the approach. Manuscript writing, editing \& submission.}
+\cvitem{Advisor:}{\small \textbf{Prof. Kang Ning} and \textbf{Prof. Weihua Chen}}
+\hfill
+
+\cventry{Oct,2019 -- Aug, 2020}{\textit{Developing an ontology-aware approach for fast and accurate microbial source tracking}}{}{}{}
+{Feature engineering module design and implementation utilizing Treelib + NumPy + Scikit-learn. Feature selection of 125,823 community samples. Parallelization of SourceTracker using
+Foreach + doParallel. Performance comparison with SourceTracker and JSD. Case-studies for ONN4MST, FEAST, JSD,
+and SourceTracker. Manuscript editing, data analysis \& visualization.}
+\cvitem{Advisor:}{\small \textbf{Prof. Kang Ning}}
+\hfill
+
+\cventry{May, 2019 -- Nov, 2019}{\textit{Developing a cell sorter using Convolutional Neural Network and Transfer learning (Training program)}}{}{}{}
+{Developing a cell sorter program using CNN architecture and Transfer learning. Design and implementation of the data processing pipeline and the CNN model. Cross-validation of the CNN model and another ResNet-based CNN model.}
+\cvitem{Advisor:}{\small \textbf{Prof. Yu Xue} ({\Colorhref{http://www.biocuckoo.org/} {\textit{Lab Web-page}}})}
+\hfill
+
+
+
+%----------------------------------------------------------------------------------------
+%	Position of Responsibility SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Position of Responsibility}
+\cventry{Nov, 2021 -- present}{Steering committee member of Microbiome Virtual International Forum}{}{Event backstage administrator and website administrator}{}{}
+
+
+
+
+\section{Projects}
+\cvitem{EXPERT}{Context-aware microbial source tracking based on transfer learning. \href{https://github.com/HUST-NingKang-Lab/EXPERT}{\textit{Link}}}
+\cvitem{ONN4MST}{Hierarchical microbial source tracking based on deep learning. \href{https://github.com/HUST-NingKang-Lab/ONN4MST}{\textit{Link}}}
+\cvitem{AMPSphere website}{Website for retrieving and analyzing Antimicrobial Peptide candidates around the globe. \href{https://ampsphere.big-data-biology.org/home}{\textit{Link}}}
+\cvitem{Meta-Prism}{Ultra-fast, accurate and memory-efficient microbial community search accelerated by Single Instruction Multiple Data. \href{https://github.com/HUST-NingKang-Lab/Meta-Prism-2.0}{\textit{Link}}}
+\cvitem{UniPCoA}{Unifrac-based PCoA visualization of microbial community samples. \href{https://github.com/AdeBC/UniPCoA}{\textit{Link}}}
+\cvitem{living tree}{Taxonomical abundance remapping and feature engineering for metagenomic samples. \href{https://github.com/AdeBC/living-tree-toolkit}{\textit{Link}}}
+\cvitem{Functional\\CrossRef}{Resources for cross-database conversion of functional terms: KO number, GO (Gene Ontology) term, EC (Enzyme Commission) number, and MetaCyc reaction/pathways ID. \href{https://github.com/AdeBC/FunctionalCrossRef}{\textit{Link}}}
+%\cvitem{Linux-recipe}{https://github.com/AdeBC/Linux-recipe}
+
+%----------------------------------------------------------------------------------------
+%	Fellowships \& Awards
+%----------------------------------------------------------------------------------------
+
+% \section{Fellowships \& Awards}
+
+% \cvitem{2016 --present}{\textit{\textbf{Visvesvaraya Fellowship}} of Ministry of Electronics and Information Technology (MeitY), Government of India, as a PhD research scholar in Indian Institute of Technology Patna.}
+% \cvitem{2019}{Receipt of \textit{\textbf{Visvesvaraya Travel Grant}} to attend a international conference \textbf{\textit{IEEE Congress on Evolutionary Computation, 2019}} in Wellington, New Zealand.}
+% \cvitem{2018}{Recipient of \textit{\textbf{SciGenome Research Foundation (SGRF) GYAN Scholarship}} to participate \textbf{\textit{Nextgen Genomics, Biology, Bioinformatics and Technologies-2018}} meeting at Jaipur India from $30^{th}$ September to $2^{nd}$ October 2018. }
+% \cvitem{2015}{Awarded under \textit{\textbf{Students Reward Programme}} at the Annual General Meeting of \textbf{Global Alumni Association of Bengal Engineering and Science University(GAABESU).}}
+
+
+%----------------------------------------------------------------------------------------
+%	Academic achievements
+%----------------------------------------------------------------------------------------
+
+% \section{Academic Achievements \& Recognitions }
+
+
+% \cvitem{2018}{\textbf{Session Chair of the session "Prediction"} in \textbf{$25^{th}$ \textit{International Conference of Neural Information Processing} (ICONIP 2018)}, Siem Reap, Cambodia.}
+
+
+% \cvitem{2018}{Invited to conduct lab sessions in \textit{\textbf{"Training Program on Machine Learning For Ocean Acoustics and Climate Data Analysis"}}, during 22-36 October 2018 at \textbf{Defence R\&D Organization- Naval Physical \& Oceanographic Laboratory (DRDO-NPOL), Kochi, Kerala}.}
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Research skills}
+
+\cvitem{Scientific computing}{Python, Pandas, NumPy, SciPy, TensorFlow, R, Linux shell}
+\cvitem{Programming skills}{Top-down programming, Object-oriented programming, Parallelized programming}
+\cvitem{Reproducible research}{Git, GitHub, Jupyter lab}
+\cvitem{Statistics \& visualization}{Pandas, ggplot, plotnine, Plotly, Adobe Illustrator}
+
+
+% %----------------------------------------------------------------------------------------
+% %	Teaching Assistantship SECTION
+% %----------------------------------------------------------------------------------------
+
+% \section{Teaching Assistantship}
+% \cventry{Fall, 2019 :}{CS564: Foundations of Machine Learning}{}{IIT ABC}{}{}
+% \cventry{Spring, 2019 :}{CS342: Operating System Lab}{}{IIT ABC}{}{}
+% \cventry{Fall, 2018 :}{CS564: Foundations of Machine Learning}{}{IIT ABC}{}{}
+
+
+
+\section{Referees}
+
+
+\begin{tabular}{p{10cm}p{1cm}p{10cm}}
+% Referee 1
+\begin{minipage}[t]{3in}
+\textbf{Dr. Luis Pedro Coelho}\\
+\textit{Principal investigator}\\
+% \textit{} \\
+Institute of Science and Technology for Brain-inspired Intelligence, \\
+Fudan University\\
+%\Telefon\ +(601) 877-6236\\
+\Letter\ \href{mailto:coelho@fudan.edu.cn }{coelho@fudan.edu.cn}
+\end{minipage}
+&
+% Referee 2
+\begin{minipage}[t]{3in}
+\textbf{Dr. Kang Ning}\\
+\textit{Professor, Department of} \\
+\textit{Bioinformatics \& System biology}\\
+School of Life Sci. \& Tech., \\
+Huazhong University of Sci. \& Tech.    \\
+\Letter\ \href{mailto:ningkang@hust.edu.cn}{ningkang@hust.edu.cn}
+\end{minipage}
+\\
+\\ % Additional newline for spacing.
+% Referee 3
+\begin{minipage}[t]{3in}
+\textbf{Dr. Weihua Chen}\\
+\textit{Professor, Department of} \\
+\textit{Bioinformatics \& System biology}\\
+School of Life Sci. \& Tech., \\
+Huazhong University of Sci. \& Tech.\\
+%\Telefon\ +(601) 877-6236\\
+\Letter\ \href{mailto:weihuachen@hust.edu.cn}{weihuachen@hust.edu.cn}
+\end{minipage}
+&
+% Referee 4
+\begin{minipage}[t]{3in}
+\textbf{Dr. Yu Xue}\\
+\textit{Professor, Department of} \\
+\textit{Bioinformatics \& System biology}\\
+School of Life Sci. \& Tech., \\
+Huazhong University of Sci. \& Tech.\\
+%\Telefon\ +(601) 877-6236\\
+\Letter\ \href{mailto:xueyu@mail.hust.edu.cn}{xueyu@mail.hust.edu.cn}
+\end{minipage}
+\\
+\\
+% Referee 5
+\begin{minipage}[t]{3in}
+\textbf{Dr. Xiaoquan Su}\\
+\textit{Professor}\\
+\textit{\quad}\\
+College of Computer Sci. \& Tech., \\
+Qingdao University\\
+%\Telefon\ +(601) 877-6236\\
+\Letter\ \href{mailto:suxq@qdu.edu.cn}{suxq@qdu.edu.cn}
+\end{minipage}
+\end{tabular}
+
+
+\end{document}

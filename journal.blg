@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2021)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: journal.aux
+The style file: plainyrrev.bst
+Database file #1: journal.bib
+Warning--empty journal in zha2021microbial
+You've used 7 entries,
+            2156 wiz_defined-function locations,
+            538 strings with 6126 characters,
+and the built_in function-call counts, 3206 in all, are:
+= -- 287
+> -- 267
+< -- 3
++ -- 104
+- -- 97
+* -- 235
+:= -- 589
+add.period$ -- 27
+call.type$ -- 7
+change.case$ -- 64
+chr.to.int$ -- 0
+cite$ -- 1
+duplicate$ -- 106
+empty$ -- 171
+format.name$ -- 97
+if$ -- 635
+int.to.chr$ -- 0
+int.to.str$ -- 7
+missing$ -- 7
+newline$ -- 36
+num.names$ -- 21
+pop$ -- 88
+preamble$ -- 0
+purify$ -- 57
+quote$ -- 0
+skip$ -- 70
+stack$ -- 0
+substring$ -- 47
+swap$ -- 28
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 28
+warning$ -- 1
+while$ -- 23
+width$ -- 8
+write$ -- 92
+(There was 1 warning)
